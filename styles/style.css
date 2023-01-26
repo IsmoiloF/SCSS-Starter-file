@@ -1,0 +1,103 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  position: relative;
+}
+.image{
+  width: 120px;
+  height: 70px;
+  
+  animation-name: image;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes image {
+  0%{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+
+  }
+  12.5%{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    left: 400px;
+    transform: rotate(0deg);
+  }
+  15%{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    left: 400px;
+    transform: rotate(90deg);
+  }
+  30%{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    transform: rotate(90deg);
+  }
+
+  48%{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    transform: rotate(90deg);
+  }
+  
+  40%{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    transform: rotate(0deg);
+  }
+  48%{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    transform: rotate(90deg);
+  }
+
+  65%{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    transform: rotate(90deg);
+  }
+
+  85%{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    transform: rotate(180deg);
+  }
+  100%{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(360deg);
+  }
+
+  }
